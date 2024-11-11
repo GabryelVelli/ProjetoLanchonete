@@ -20,7 +20,7 @@ Este projeto simula o sistema de uma lanchonete, permitindo cadastrar lanches, r
 
 ## Estrutura do Código
 
-- Classe Lanchonete
+* Classe Lanchonete
 A classe principal Lanchonete gerencia o cardápio, os pedidos e o cálculo da conta. Suas principais propriedades e métodos são:
 
 - List<Lanches> lanchesDisponiveis: Lista que armazena os lanches cadastrados.
@@ -29,7 +29,7 @@ A classe principal Lanchonete gerencia o cardápio, os pedidos e o cálculo da c
 - Pedido: Método para adicionar um lanche ao pedido.
 - Conta: Método que exibe o resumo do pedido, o total e a taxa de serviço.
 
-- Classe Lanches
+* Classe Lanches
 A classe Lanches define as propriedades básicas de um lanche: Nome, Descrição, e Preço.
 
 - Ao escolher a opção 1 o cardapio será exibido para o usuário.
